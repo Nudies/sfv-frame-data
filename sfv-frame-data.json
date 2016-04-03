@@ -5,6 +5,807 @@
     },
     "characters" : [
         {
+            "name": "Alex",
+            "fullname": "Alex",
+            "avatar": "http://streetfighter.com/wp-content/uploads/2015/06/portrait-alex.jpg",
+            "birthdate": "Unkown",
+            "birthplace": "U.S.A.",
+            "height": "6'5\" (195 cm)",
+            "weight": "245 lb (111 kg)",
+            "health": 1000,
+            "stun": 1050,
+            "moves": [
+                {
+                    "chip":"0",
+                    "move":"Standing Light Punch",
+                    "annotated": "s.LP",
+                    "damage":"30",
+                    "command":"",
+                    "frames":{
+                        "active":"3",
+                        "hit":"4",
+                        "startup":"4",
+                        "recovery":"6",
+                        "block":"2"
+                    },
+                    "stun":"70"
+                },
+                {
+                    "chip":"10",
+                    "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
+                    "damage":"60",
+                    "command":"",
+                    "frames":{
+                        "active":"2",
+                        "hit":"5",
+                        "startup":"6",
+                        "recovery":"11",
+                        "block":"2"
+                    },
+                    "stun":"100"
+                },
+                {
+                    "chip":"15",
+                    "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
+                    "damage":"90",
+                    "command":"",
+                    "frames":{
+                        "active":"3",
+                        "hit":"-1",
+                        "startup":"10",
+                        "recovery":"21",
+                        "block":"-3"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"0",
+                    "move":"Standing Light Kick",
+                    "annotated": "s.LK",
+                    "damage":"40",
+                    "command":"",
+                    "frames":{
+                        "active":"3",
+                        "hit":"2",
+                        "startup":"5",
+                        "recovery":"7",
+                        "block":"-1"
+                    },
+                    "stun":"70"
+                },
+                {
+                    "chip":"12",
+                    "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
+                    "damage":"70",
+                    "command":"",
+                    "frames":{
+                        "active":"3",
+                        "hit":"2",
+                        "startup":"8",
+                        "recovery":"14",
+                        "block":"-2"
+                    },
+                    "stun":"100"
+                },
+                {
+                    "chip":"15",
+                    "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
+                    "damage":"90",
+                    "command":"",
+                    "frames":{
+                        "active":"3",
+                        "hit":"-1",
+                        "startup":"17",
+                        "recovery":"24",
+                        "block":"-4"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"0",
+                    "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
+                    "damage":"30",
+                    "command":"",
+                    "frames":{
+                        "active":"2",
+                        "hit":"4",
+                        "startup":"4",
+                        "recovery":"6",
+                        "block":"2"
+                    },
+                    "stun":"70"
+                },
+                {
+                    "chip":"10",
+                    "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
+                    "damage":"60",
+                    "command":"",
+                    "frames":{
+                        "active":"3",
+                        "hit":"2",
+                        "startup":"7",
+                        "recovery":"14",
+                        "block":"1"
+                    },
+                    "stun":"100"
+                },
+                {
+                    "chip":"8*7",
+                    "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
+                    "damage":"50*40",
+                    "command":"",
+                    "frames":{
+                        "active":"6",
+                        "hit":"KD",
+                        "startup":"12",
+                        "recovery":"22",
+                        "block":"-8"
+                    },
+                    "stun":"75*75"
+                },
+                {
+                    "chip":"0",
+                    "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
+                    "damage":"20",
+                    "command":"",
+                    "frames":{
+                        "active":"3",
+                        "hit":"4",
+                        "startup":"4",
+                        "recovery":"5",
+                        "block":"0"
+                    },
+                    "stun":"70"
+                },
+                {
+                    "chip":"10",
+                    "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
+                    "damage":"80",
+                    "command":"",
+                    "frames":{
+                        "active":"2",
+                        "hit":"0",
+                        "startup":"8",
+                        "recovery":"17",
+                        "block":"-3"
+                    },
+                    "stun":"100"
+                },
+                {
+                    "chip":"17",
+                    "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
+                    "damage":"100",
+                    "command":"",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"11",
+                        "recovery":"23",
+                        "block":"-12"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"0",
+                    "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
+                    "damage":"40",
+                    "command":"",
+                    "frames":{
+                        "active":"5",
+                        "hit":"-",
+                        "startup":"4",
+                        "recovery":"-",
+                        "block":"-"
+                    },
+                    "stun":"70"
+                },
+                {
+                    "chip":"12",
+                    "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
+                    "damage":"70",
+                    "command":"",
+                    "frames":{
+                        "active":"7",
+                        "hit":"-",
+                        "startup":"6",
+                        "recovery":"-",
+                        "block":"-"
+                    },
+                    "stun":"100"
+                },
+                {
+                    "chip":"15",
+                    "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
+                    "damage":"90",
+                    "command":"",
+                    "frames":{
+                        "active":"3",
+                        "hit":"-",
+                        "startup":"8",
+                        "recovery":"-",
+                        "block":"-"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"0",
+                    "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
+                    "damage":"40",
+                    "command":"",
+                    "frames":{
+                        "active":"5",
+                        "hit":"-",
+                        "startup":"4",
+                        "recovery":"-",
+                        "block":"-"
+                    },
+                    "stun":"70"
+                },
+                {
+                    "chip":"12",
+                    "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
+                    "damage":"70",
+                    "command":"",
+                    "frames":{
+                        "active":"6",
+                        "hit":"-",
+                        "startup":"6",
+                        "recovery":"-",
+                        "block":"-"
+                    },
+                    "stun":"100"
+                },
+                {
+                    "chip":"15",
+                    "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
+                    "damage":"90",
+                    "command":"",
+                    "frames":{
+                        "active":"5",
+                        "hit":"-",
+                        "startup":"9",
+                        "recovery":"-",
+                        "block":"-"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"10",
+                    "move":"Chop",
+                    "damage":"60",
+                    "command":"f+MP",
+                    "frames":{
+                        "active":"2",
+                        "hit":"1",
+                        "startup":"22",
+                        "recovery":"17",
+                        "block":"-4"
+                    },
+                    "stun":"100"
+                },
+                {
+                    "chip":"13",
+                    "move":"Lariat",
+                    "damage":"80",
+                    "command":"f+HP",
+                    "frames":{
+                        "active":"3",
+                        "hit":"5",
+                        "startup":"10",
+                        "recovery":"16",
+                        "block":"3"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"15",
+                    "move":"Flying Cross Chop",
+                    "damage":"90",
+                    "command":"d+HP (air)",
+                    "frames":{
+                        "active":"23",
+                        "hit":"-",
+                        "startup":"14",
+                        "recovery":"-",
+                        "block":"-"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"-",
+                    "move":"Face-Crush Chop",
+                    "damage":"120",
+                    "command":"LP+LK",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"5",
+                        "recovery":"17",
+                        "block":"-"
+                    },
+                    "stun":"170"
+                },
+                {
+                    "chip":"-",
+                    "move":"Leg Tomahawk",
+                    "damage":"140",
+                    "command":"b+LP+LK",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"5",
+                        "recovery":"17",
+                        "block":"-"
+                    },
+                    "stun":"200"
+                },
+                {
+                    "chip":"-",
+                    "move":"Rage Shift",
+                    "damage":"-",
+                    "command":"HP+HK",
+                    "frames":{
+                        "active":"-",
+                        "hit":"",
+                        "startup":"-",
+                        "recovery":"",
+                        "block":"-"
+                    },
+                    "stun":"-"
+                },
+                {
+                    "chip":"20",
+                    "move":"Sledge Hammer",
+                    "damage":"80",
+                    "command":"HP+HK (during VT)",
+                    "frames":{
+                        "active":"??",
+                        "hit":"5",
+                        "startup":"20",
+                        "recovery":"??",
+                        "block":"-12"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"33",
+                    "move":"Sledge Hammer (Full Charge)",
+                    "damage":"130",
+                    "command":"HP+HK (hold, during VT)",
+                    "frames":{
+                        "active":"??",
+                        "hit":"11",
+                        "startup":"68",
+                        "recovery":"??",
+                        "block":"guard break +4"
+                    },
+                    "stun":"200"
+                },
+                {
+                    "chip":"-",
+                    "move":"Overhaul",
+                    "damage":"-",
+                    "command":"MP+MK",
+                    "frames":{
+                        "active":"-",
+                        "hit":"-",
+                        "startup":"-",
+                        "recovery":"-",
+                        "block":"-"
+                    },
+                    "stun":"-"
+                },
+                {
+                    "chip":"0",
+                    "move":"Big Boot",
+                    "damage":"60",
+                    "command":"f+KKK",
+                    "frames":{
+                        "active":"",
+                        "hit":"KD",
+                        "startup":"23",
+                        "recovery":"",
+                        "block":"-2"
+                    },
+                    "stun":"0"
+                },
+                {
+                    "chip":"18",
+                    "move":"Flash Chop LP",
+                    "damage":"70",
+                    "command":"qcf+LP",
+                    "frames":{
+                        "active":"3",
+                        "hit":"2",
+                        "startup":"13",
+                        "recovery":"19",
+                        "block":"-4"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"20",
+                    "move":"Flash Chop MP",
+                    "damage":"80",
+                    "command":"qcf+MP",
+                    "frames":{
+                        "active":"3",
+                        "hit":"3",
+                        "startup":"19",
+                        "recovery":"18",
+                        "block":"-4"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"23",
+                    "move":"Flash Chop HP",
+                    "damage":"90",
+                    "command":"qcf+HP",
+                    "frames":{
+                        "active":"3",
+                        "hit":"2",
+                        "startup":"25",
+                        "recovery":"20",
+                        "block":"-4"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"19*19",
+                    "move":"Flash Chop EX",
+                    "damage":"75*75",
+                    "command":"qcf+PP",
+                    "frames":{
+                        "active":"5",
+                        "hit":"KD",
+                        "startup":"11",
+                        "recovery":"18",
+                        "block":"-2"
+                    },
+                    "stun":"100*100"
+                },
+                {
+                    "chip":"20",
+                    "move":"Slash Elbow LK",
+                    "damage":"80",
+                    "command":"b,f+LK",
+                    "frames":{
+                        "active":"5",
+                        "hit":"3",
+                        "startup":"14",
+                        "recovery":"17",
+                        "block":"-4"
+                    },
+                    "stun":"200"
+                },
+                {
+                    "chip":"23",
+                    "move":"Slash Elbow MK",
+                    "damage":"90",
+                    "command":"b,f+MK",
+                    "frames":{
+                        "active":"5",
+                        "hit":"KD",
+                        "startup":"19",
+                        "recovery":"18",
+                        "block":"-6"
+                    },
+                    "stun":"200"
+                },
+                {
+                    "chip":"25",
+                    "move":"Slash Elbow HK",
+                    "damage":"100",
+                    "command":"b,f+HK",
+                    "frames":{
+                        "active":"5",
+                        "hit":"KD",
+                        "startup":"24",
+                        "recovery":"18",
+                        "block":"-7"
+                    },
+                    "stun":"150"
+                },
+                {
+                    "chip":"19*19",
+                    "move":"Slash Elbow EX",
+                    "damage":"75*75",
+                    "command":"b,f+KK",
+                    "frames":{
+                        "active":"3",
+                        "hit":"KD",
+                        "startup":"14",
+                        "recovery":"28",
+                        "block":"-10"
+                    },
+                    "stun":"100*100"
+                },
+                {
+                    "chip":"-",
+                    "move":"Air Knee Smash LK",
+                    "damage":"10*120",
+                    "command":"f,d,df+LK",
+                    "frames":{
+                        "active":"8",
+                        "hit":"KD",
+                        "startup":"6",
+                        "recovery":"37",
+                        "block":"-"
+                    },
+                    "stun":"0*200"
+                },
+                {
+                    "chip":"-",
+                    "move":"Air Knee Smash MK",
+                    "damage":"10*120",
+                    "command":"f,d,df+MK",
+                    "frames":{
+                        "active":"8",
+                        "hit":"KD",
+                        "startup":"9",
+                        "recovery":"38",
+                        "block":"-"
+                    },
+                    "stun":"0*200"
+                },
+                {
+                    "chip":"-",
+                    "move":"Air Knee Smash HK",
+                    "damage":"10*120",
+                    "command":"f,d,df+HK",
+                    "frames":{
+                        "active":"8",
+                        "hit":"KD",
+                        "startup":"11",
+                        "recovery":"40",
+                        "block":"-"
+                    },
+                    "stun":"0*200"
+                },
+                {
+                    "chip":"-",
+                    "move":"Air Knee Smash EX",
+                    "damage":"10*150",
+                    "command":"f,d,df+KK",
+                    "frames":{
+                        "active":"8",
+                        "hit":"KD",
+                        "startup":"6",
+                        "recovery":"??",
+                        "block":"-"
+                    },
+                    "stun":"0*200"
+                },
+                {
+                    "chip":"-",
+                    "move":"Power Bomb LP",
+                    "damage":"160",
+                    "command":"hcb+LP",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"6",
+                        "recovery":"51",
+                        "block":"-"
+                    },
+                    "stun":"220"
+                },
+                {
+                    "chip":"-",
+                    "move":"Power Bomb MP",
+                    "damage":"170",
+                    "command":"hcb+MP",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"6",
+                        "recovery":"51",
+                        "block":"-"
+                    },
+                    "stun":"220"
+                },
+                {
+                    "chip":"-",
+                    "move":"Power Bomb HP",
+                    "damage":"180",
+                    "command":"hcb+HP",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"6",
+                        "recovery":"51",
+                        "block":"-"
+                    },
+                    "stun":"220"
+                },
+                {
+                    "chip":"-",
+                    "move":"Power Bomb EX",
+                    "damage":"220",
+                    "command":"hcb+PP",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"6",
+                        "recovery":"51",
+                        "block":"-"
+                    },
+                    "stun":"250"
+                },
+                {
+                    "chip":"-",
+                    "move":"Power Drop",
+                    "damage":"126",
+                    "command":"hcb+P (opponent turned)",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"5",
+                        "recovery":"51",
+                        "block":"-"
+                    },
+                    "stun":"225"
+                },
+                {
+                    "chip":"-",
+                    "move":"Power Drop EX",
+                    "damage":"72*90",
+                    "command":"hcb+PP (opponent turned)",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"5",
+                        "recovery":"51",
+                        "block":"-"
+                    },
+                    "stun":"0*270"
+                },
+                {
+                    "chip":"30",
+                    "move":"Air Stampede LK",
+                    "damage":"120",
+                    "command":"d,u+LK",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"27",
+                        "recovery":"17",
+                        "block":"-5"
+                    },
+                    "stun":"200"
+                },
+                {
+                    "chip":"30",
+                    "move":"Air Stampede MK",
+                    "damage":"120",
+                    "command":"d,u+MK",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"30",
+                        "recovery":"21",
+                        "block":"-5"
+                    },
+                    "stun":"200"
+                },
+                {
+                    "chip":"30",
+                    "move":"Air Stampede HK",
+                    "damage":"120",
+                    "command":"d,u+HK",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"33",
+                        "recovery":"22",
+                        "block":"-5"
+                    },
+                    "stun":"200"
+                },
+                {
+                    "chip":"35",
+                    "move":"Air Stampede EX",
+                    "damage":"140",
+                    "command":"d,u+KK",
+                    "frames":{
+                        "active":"2",
+                        "hit":"KD",
+                        "startup":"29",
+                        "recovery":"18",
+                        "block":"2"
+                    },
+                    "stun":"200"
+                },
+                {
+                    "chip":"-",
+                    "move":"Head Crush LP",
+                    "damage":"160",
+                    "command":"d,u+LP",
+                    "frames":{
+                        "active":"2",
+                        "hit":"3",
+                        "startup":"36",
+                        "recovery":"43",
+                        "block":"-"
+                    },
+                    "stun":"250"
+                },
+                {
+                    "chip":"-",
+                    "move":"Head Crush MP",
+                    "damage":"160",
+                    "command":"d,u+MP",
+                    "frames":{
+                        "active":"2",
+                        "hit":"3",
+                        "startup":"40",
+                        "recovery":"49",
+                        "block":"-"
+                    },
+                    "stun":"250"
+                },
+                {
+                    "chip":"-",
+                    "move":"Head Crush HP",
+                    "damage":"160",
+                    "command":"d,u+HP",
+                    "frames":{
+                        "active":"2",
+                        "hit":"3",
+                        "startup":"44",
+                        "recovery":"55",
+                        "block":"-"
+                    },
+                    "stun":"250"
+                },
+                {
+                    "chip":"-",
+                    "move":"Head Crush EX",
+                    "damage":"180",
+                    "command":"d,u+PP",
+                    "frames":{
+                        "active":"2",
+                        "hit":"3",
+                        "startup":"30",
+                        "recovery":"49",
+                        "block":"-"
+                    },
+                    "stun":"300"
+                },
+                {
+                    "chip":"20*20*20",
+                    "move":"Heavy Hammer",
+                    "damage":"100*50*200",
+                    "command":"qcf,qcf+P",
+                    "frames":{
+                        "active":"",
+                        "hit":"KD",
+                        "startup":"5",
+                        "recovery":"",
+                        "block":"-25"
+                    },
+                    "stun":"0*0*0"
+                }
+            ]
+        },
+        {
             "name": "Birdie",
             "fullname": "Birdie",
             "avatar": "http://streetfighter.com/wp-content/uploads/2015/06/portrait-birdie.jpg",
@@ -14,10 +815,11 @@
             "weight": "507 lb (230 kg)",
             "health": 1050,
             "stun": 1000,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"40",
                     "command":"-",
                     "frames":{
@@ -32,6 +834,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"-",
                     "frames":{
@@ -46,6 +849,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"90",
                     "command":"-",
                     "frames":{
@@ -60,6 +864,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"30",
                     "command":"-",
                     "frames":{
@@ -74,6 +879,7 @@
                 {
                     "chip":"12",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"70",
                     "command":"-",
                     "frames":{
@@ -88,6 +894,7 @@
                 {
                     "chip":"17",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"100",
                     "command":"-",
                     "frames":{
@@ -102,6 +909,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"40",
                     "command":"-",
                     "frames":{
@@ -116,6 +924,7 @@
                 {
                     "chip":"12",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"70",
                     "command":"-",
                     "frames":{
@@ -130,6 +939,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"90",
                     "command":"-",
                     "frames":{
@@ -144,6 +954,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"30",
                     "command":"-",
                     "frames":{
@@ -158,6 +969,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"60",
                     "command":"-",
                     "frames":{
@@ -172,6 +984,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"-",
                     "frames":{
@@ -186,6 +999,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"50",
                     "command":"-",
                     "frames":{
@@ -200,6 +1014,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"70",
                     "command":"-",
                     "frames":{
@@ -214,6 +1029,7 @@
                 {
                     "chip":"17",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"100",
                     "command":"-",
                     "frames":{
@@ -228,6 +1044,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"50",
                     "command":"-",
                     "frames":{
@@ -242,6 +1059,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"70",
                     "command":"-",
                     "frames":{
@@ -256,6 +1074,7 @@
                 {
                     "chip":"17",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"100",
                     "command":"-",
                     "frames":{
@@ -325,7 +1144,7 @@
                 },
                 {
                     "chip":"-",
-                    "move":"Bad Kkull",
+                    "move":"Bad Skull",
                     "damage":"150",
                     "command":"N or f+LP+LK",
                     "frames":{
@@ -714,10 +1533,11 @@
             "birthplace": "United Kingdom",
             "height": "5'4\" (164 cm)",
             "weight": "134 lb (61 kg)",
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -732,6 +1552,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -746,6 +1567,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -760,6 +1582,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -774,6 +1597,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -788,6 +1612,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -802,6 +1627,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -816,6 +1642,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -830,6 +1657,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -844,6 +1672,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -858,6 +1687,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -872,6 +1702,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -886,6 +1717,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -900,6 +1732,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -914,6 +1747,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -928,6 +1762,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -942,6 +1777,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -956,6 +1792,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -1413,10 +2250,11 @@
             "weight": "Secret",
             "health": 950,
             "stun": 1000,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -1431,6 +2269,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -1445,6 +2284,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -1459,6 +2299,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -1473,6 +2314,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -1487,6 +2329,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -1501,6 +2344,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -1515,6 +2359,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -1529,6 +2374,7 @@
                 {
                     "chip":"10*7",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"60*40",
                     "command":"",
                     "frames":{
@@ -1543,6 +2389,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -1557,6 +2404,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -1571,6 +2419,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -1585,6 +2434,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -1599,6 +2449,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -1613,6 +2464,7 @@
                 {
                     "chip":"8",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"50*50",
                     "command":"",
                     "frames":{
@@ -1627,6 +2479,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -1641,6 +2494,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -1655,6 +2509,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -2112,10 +2967,11 @@
             "weight": "106 lb (48 kg)",
             "health": 900,
             "stun": 900,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -2130,6 +2986,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -2144,6 +3001,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -2158,6 +3016,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -2172,6 +3031,7 @@
                 {
                     "chip":"8",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -2186,6 +3046,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -2200,6 +3061,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -2214,6 +3076,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -2228,6 +3091,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -2242,6 +3106,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -2256,6 +3121,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -2270,6 +3136,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -2284,6 +3151,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -2298,6 +3166,7 @@
                 {
                     "chip":"-",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -2312,6 +3181,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -2326,6 +3196,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -2340,6 +3211,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -2354,6 +3226,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -2713,10 +3586,11 @@
             "weight": "Unkown",
             "health": 950,
             "stun": 950,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"-",
                     "frames":{
@@ -2731,6 +3605,7 @@
                 {
                     "chip":"",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"40*20",
                     "command":"-",
                     "frames":{
@@ -2745,6 +3620,7 @@
                 {
                     "chip":"",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"90",
                     "command":"-",
                     "frames":{
@@ -2759,6 +3635,7 @@
                 {
                     "chip":"",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"40",
                     "command":"-",
                     "frames":{
@@ -2773,6 +3650,7 @@
                 {
                     "chip":"",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"30*30",
                     "command":"-",
                     "frames":{
@@ -2787,6 +3665,7 @@
                 {
                     "chip":"",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"40*75",
                     "command":"-",
                     "frames":{
@@ -2801,6 +3680,7 @@
                 {
                     "chip":"",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"30",
                     "command":"-",
                     "frames":{
@@ -2815,6 +3695,7 @@
                 {
                     "chip":"",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"50",
                     "command":"-",
                     "frames":{
@@ -2829,6 +3710,7 @@
                 {
                     "chip":"",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"50*40",
                     "command":"-",
                     "frames":{
@@ -2843,6 +3725,7 @@
                 {
                     "chip":"",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"-",
                     "frames":{
@@ -2857,6 +3740,7 @@
                 {
                     "chip":"",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"20*40",
                     "command":"-",
                     "frames":{
@@ -2871,6 +3755,7 @@
                 {
                     "chip":"",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"40*60",
                     "command":"-",
                     "frames":{
@@ -2885,6 +3770,7 @@
                 {
                     "chip":"",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"-",
                     "frames":{
@@ -2899,6 +3785,7 @@
                 {
                     "chip":"",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"70",
                     "command":"-",
                     "frames":{
@@ -2913,6 +3800,7 @@
                 {
                     "chip":"",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"-",
                     "frames":{
@@ -2927,6 +3815,7 @@
                 {
                     "chip":"",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"-",
                     "frames":{
@@ -2941,6 +3830,7 @@
                 {
                     "chip":"",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"35*35",
                     "command":"-",
                     "frames":{
@@ -2955,6 +3845,7 @@
                 {
                     "chip":"",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"48*48",
                     "command":"-",
                     "frames":{
@@ -3314,10 +4205,11 @@
             "weight": "130 lbs (59 kg)",
             "health": 900,
             "stun": 950,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -3332,6 +4224,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -3346,6 +4239,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -3360,6 +4254,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -3374,6 +4269,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -3388,6 +4284,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -3402,6 +4299,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -3416,6 +4314,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -3430,6 +4329,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -3444,6 +4344,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -3458,6 +4359,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -3472,6 +4374,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -3486,6 +4389,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -3500,6 +4404,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -3514,6 +4419,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -3528,6 +4434,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -3542,6 +4449,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -3556,6 +4464,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -4013,10 +4922,11 @@
             "weight": "183 lbs (83 kg)",
             "health": 1000,
             "stun": 1000,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -4031,6 +4941,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -4045,6 +4956,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -4059,6 +4971,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -4073,6 +4986,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -4087,6 +5001,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -4101,6 +5016,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -4115,6 +5031,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -4129,6 +5046,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -4143,6 +5061,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -4157,6 +5076,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -4171,6 +5091,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -4185,6 +5106,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -4199,6 +5121,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -4213,6 +5136,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -4227,6 +5151,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -4241,6 +5166,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -4255,6 +5181,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -4670,10 +5597,11 @@
             "weight": "159 lbs (72 kg)",
             "health": 1000,
             "stun": 1000,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -4688,6 +5616,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -4702,6 +5631,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -4716,6 +5646,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -4730,6 +5661,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -4744,6 +5676,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -4758,6 +5691,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -4772,6 +5706,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -4786,6 +5721,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -4800,6 +5736,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -4814,6 +5751,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -4828,6 +5766,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -4842,6 +5781,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -4856,6 +5796,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -4870,6 +5811,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -4884,6 +5826,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -4898,6 +5841,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -4912,6 +5856,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -5341,10 +6286,11 @@
             "weight": "247 lbs (112 kg)",
             "health": 1000,
             "stun": 950,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -5359,6 +6305,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -5373,6 +6320,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -5387,6 +6335,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -5401,6 +6350,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -5415,6 +6365,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -5429,6 +6380,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -5443,6 +6395,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -5457,6 +6410,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -5471,6 +6425,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -5485,6 +6440,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -5499,6 +6455,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -5513,6 +6470,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -5527,6 +6485,7 @@
                 {
                     "chip":"8",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -5541,6 +6500,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -5555,6 +6515,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -5569,6 +6530,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -5583,6 +6545,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -5984,10 +6947,11 @@
             "weight": "205 lb (93 kg)",
             "health": 950,
             "stun": 950,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -6002,6 +6966,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -6016,6 +6981,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -6030,6 +6996,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -6044,6 +7011,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -6058,6 +7026,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -6072,6 +7041,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -6086,6 +7056,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -6100,6 +7071,7 @@
                 {
                     "chip":"13",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -6114,6 +7086,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -6128,6 +7101,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -6142,6 +7116,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -6156,6 +7131,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -6170,6 +7146,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -6184,6 +7161,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -6198,6 +7176,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -6212,6 +7191,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -6226,6 +7206,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -6753,10 +7734,11 @@
             "weight": "249 lbs (113 kg)",
             "health": 1000,
             "stun": 1000,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -6771,6 +7753,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -6785,6 +7768,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -6799,6 +7783,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -6813,6 +7798,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -6827,6 +7813,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -6841,6 +7828,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -6855,6 +7843,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -6869,6 +7858,7 @@
                 {
                     "chip":"13",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -6883,6 +7873,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -6897,6 +7888,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -6911,6 +7903,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -6925,6 +7918,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -6939,6 +7933,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -6953,6 +7948,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -6967,6 +7963,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -6981,6 +7978,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -6995,6 +7993,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -7382,10 +8381,11 @@
             "weight": "154 lbs (70 kg)",
             "health": 950,
             "stun": 1000,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -7400,6 +8400,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -7414,6 +8415,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -7428,6 +8430,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -7442,6 +8445,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -7456,6 +8460,7 @@
                 {
                     "chip":"15 (17)",
                     "move":"Standing Heavy Kick (Hold)",
+                    "annotated": "s.HK",
                     "damage":"90(100)",
                     "command":"",
                     "frames":{
@@ -7470,6 +8475,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -7484,6 +8490,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -7498,6 +8505,7 @@
                 {
                     "chip":"13",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -7512,6 +8520,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -7526,6 +8535,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -7540,6 +8550,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -7554,6 +8565,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -7568,6 +8580,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -7582,6 +8595,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -7596,6 +8610,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -7610,6 +8625,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -7624,6 +8640,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -8081,10 +9098,11 @@
             "weight": "187 lbs (85 kg)",
             "health": 950,
             "stun": 1000,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -8099,6 +9117,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -8113,6 +9132,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -8127,6 +9147,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -8141,6 +9162,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -8155,6 +9177,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -8169,6 +9192,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -8183,6 +9207,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -8197,6 +9222,7 @@
                 {
                     "chip":"7*7",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"40*40",
                     "command":"",
                     "frames":{
@@ -8211,6 +9237,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -8225,6 +9252,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -8239,6 +9267,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -8253,6 +9282,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -8267,6 +9297,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -8281,6 +9312,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -8295,6 +9327,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -8309,6 +9342,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -8323,6 +9357,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -8836,10 +9871,11 @@
             "weight": "187 lbs (85 kg)",
             "health": 1000,
             "stun": 1000,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -8854,6 +9890,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -8868,6 +9905,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -8882,6 +9920,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -8896,6 +9935,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -8910,6 +9950,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -8924,6 +9965,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -8938,6 +9980,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -8952,6 +9995,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -8966,6 +10010,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -8980,6 +10025,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -8994,6 +10040,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -9008,6 +10055,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -9022,6 +10070,7 @@
                 {
                     "chip":"7",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"40*40",
                     "command":"",
                     "frames":{
@@ -9036,6 +10085,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -9050,6 +10100,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -9064,6 +10115,7 @@
                 {
                     "chip":"10",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -9078,6 +10130,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -9479,10 +10532,11 @@
             "weight": "185 lbs (84 kg)",
             "health": 1000,
             "stun": 950,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -9497,6 +10551,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -9511,6 +10566,7 @@
                 {
                     "chip":"13",
                     "move":"Standing Heavy Punch",
+                    "annotated": "s.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -9525,6 +10581,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -9539,6 +10596,7 @@
                 {
                     "chip":"10",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -9553,6 +10611,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -9567,6 +10626,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -9581,6 +10641,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -9595,6 +10656,7 @@
                 {
                     "chip":"13",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -9609,6 +10671,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"20",
                     "command":"",
                     "frames":{
@@ -9623,6 +10686,7 @@
                 {
                     "chip":"8",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -9637,6 +10701,7 @@
                 {
                     "chip":"15",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -9651,6 +10716,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -9665,6 +10731,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -9679,6 +10746,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -9693,6 +10761,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -9707,6 +10776,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -9721,6 +10791,7 @@
                 {
                     "chip":"15",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -10220,10 +11291,11 @@
             "weight": "400 lbs (181 kg)",
             "health": 1050,
             "stun": 1050,
-            "moves" : [
+            "moves": [
                 {
                     "chip":"0",
                     "move":"Standing Light Punch",
+                    "annotated": "s.LP",
                     "damage":"40",
                     "command":"",
                     "frames":{
@@ -10238,6 +11310,7 @@
                 {
                     "chip":"12",
                     "move":"Standing Medium Punch",
+                    "annotated": "s.MP",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -10252,6 +11325,7 @@
                 {
                     "chip":"17 (22)",
                     "move":"Standing Heavy Punch (Hold)",
+                    "annotated": "s.HP",
                     "damage":"100(130)",
                     "command":"",
                     "frames":{
@@ -10266,6 +11340,7 @@
                 {
                     "chip":"0",
                     "move":"Standing Light Kick",
+                    "annotated": "s.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -10280,6 +11355,7 @@
                 {
                     "chip":"12",
                     "move":"Standing Medium Kick",
+                    "annotated": "s.MK",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -10294,6 +11370,7 @@
                 {
                     "chip":"15",
                     "move":"Standing Heavy Kick",
+                    "annotated": "s.HK",
                     "damage":"90",
                     "command":"",
                     "frames":{
@@ -10308,6 +11385,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Punch",
+                    "annotated": "c.LP",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -10322,6 +11400,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Punch",
+                    "annotated": "c.MP",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -10336,6 +11415,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Punch",
+                    "annotated": "c.HP",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -10350,6 +11430,7 @@
                 {
                     "chip":"0",
                     "move":"Crouching Light Kick",
+                    "annotated": "c.LK",
                     "damage":"30",
                     "command":"",
                     "frames":{
@@ -10364,6 +11445,7 @@
                 {
                     "chip":"10",
                     "move":"Crouching Medium Kick",
+                    "annotated": "c.MK",
                     "damage":"60",
                     "command":"",
                     "frames":{
@@ -10378,6 +11460,7 @@
                 {
                     "chip":"17",
                     "move":"Crouching Heavy Kick",
+                    "annotated": "c.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -10392,6 +11475,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Punch",
+                    "annotated": "j.LP",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -10406,6 +11490,7 @@
                 {
                     "chip":"13",
                     "move":"Jumping Medium Punch",
+                    "annotated": "j.MP",
                     "damage":"80",
                     "command":"",
                     "frames":{
@@ -10420,6 +11505,7 @@
                 {
                     "chip":"17",
                     "move":"Jumping Heavy Punch",
+                    "annotated": "j.HP",
                     "damage":"100",
                     "command":"",
                     "frames":{
@@ -10434,6 +11520,7 @@
                 {
                     "chip":"0",
                     "move":"Jumping Light Kick",
+                    "annotated": "j.LK",
                     "damage":"50",
                     "command":"",
                     "frames":{
@@ -10448,6 +11535,7 @@
                 {
                     "chip":"12",
                     "move":"Jumping Medium Kick",
+                    "annotated": "j.MK",
                     "damage":"70",
                     "command":"",
                     "frames":{
@@ -10462,6 +11550,7 @@
                 {
                     "chip":"17",
                     "move":"Jumping Heavy Kick",
+                    "annotated": "j.HK",
                     "damage":"100",
                     "command":"",
                     "frames":{
